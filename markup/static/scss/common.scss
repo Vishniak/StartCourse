@@ -1,22 +1,45 @@
-// Common styles of the project
-
-html, body {
-    height: 100%;
+body{
+  font-family: $SF;
 }
 
-.page {
-    
+.page-wrapper{
+  width: 100%;
+  overflow: hidden;
 }
 
-.page__wrapper {
-    min-height: 100%;
-    margin-bottom: -50px;
+.container{
+  width: 1200px;
+  margin: 0 auto;
 }
 
-* html .page__wrapper {
-    height: 100%;
-}
+.header{
+  width: 100%;
+  position: relative;
+  background-color: $sky;
+  padding: 30px 0 0 0;
 
-.page__buffer {
-    height: 50px;
+  &__logo {
+    padding-top: 9px;
+  }
+
+  &__logo-img {
+    width: 36px;
+    height: 36px;
+    display: inline-block;
+    vertical-align: middle;
+    svg{
+      fill: $white;
+    }
+  }
+  &__logo-text{
+    color: $white;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: .1em;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 12px;
+  }
 }
