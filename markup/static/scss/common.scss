@@ -12,34 +12,189 @@ body{
   margin: 0 auto;
 }
 
-.header{
-  width: 100%;
-  position: relative;
-  background-color: $sky;
-  padding: 30px 0 0 0;
+.header {
+    width: 100%;
+    position: relative;
+    background-color: $sky;
+    padding: 30px 0 0 0;
 
-  &__logo {
-    padding-top: 9px;
-  }
-
-  &__logo-img {
-    width: 36px;
-    height: 36px;
-    display: inline-block;
-    vertical-align: middle;
-    svg{
-      fill: $white;
+    &__logo {
+        padding-top: 9px;
     }
-  }
-  &__logo-text{
-    color: $white;
-    text-transform: uppercase;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 28px;
-    letter-spacing: .1em;
-    display: inline-block;
-    vertical-align: middle;
-    margin-left: 12px;
-  }
+
+    &__logo-img {
+        width: 36px;
+        height: 36px;
+        display: inline-block;
+        vertical-align: middle;
+        svg {
+            fill: $white;
+        }
+    }
+    &__logo-text {
+        color: $white;
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 28px;
+        letter-spacing: .1em;
+        display: inline-block;
+        vertical-align: middle;
+        margin-left: 12px;
+    }
+    &__first-button {
+        display: inline-block;
+        vertical-align: middle;
+        color: $white;
+        text-transform: uppercase;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 10px;
+        letter-spacing: .1em;
+        vertical-align: middle;
+        float: right;
+    }
+    &__second-button {
+        display: inline-block;
+        vertical-align: middle;
+        color: $white;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 15px;
+        letter-spacing: .1em;
+        float: right;
+        margin-right: 70px;
+    }
+    &__third-button {
+        display: inline-block;
+        vertical-align: middle;
+        color: $white;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 15px;
+        letter-spacing: .1em;
+        float: right;
+        margin-right: 70px;
+    }
+    &__four-button {
+        display: inline-block;
+        vertical-align: middle;
+        color: $white;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 15px;
+        letter-spacing: .1em;
+        float: right;
+        margin-right: 70px;
+    }
+}
+.content{
+    width: 50%;
+    position: relative;
+    margin: 50px auto;
+    height: auto;
+
+    &__ah1 {
+        font-size: 65px;
+        line-height: 1.154;
+        text-align: center;
+        width: 681px;
+        height: 132px;
+    }
+    &__ah2 {
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 1.867;
+        text-align: center;
+        width: 660px;
+        height: 71px;
+        margin-top: 55px;
+    }
+    &__ah3 {
+        font-size: 15px;
+        line-height: 1.867;
+        text-align: left;
+        width: 682px;
+        height: 99px;
+        margin-top: 55px;
+    }
+    &__ah4 {
+        font-size: 15px;
+        line-height: 1.867;
+        text-align: left;
+        width: 648px;
+        height: 71px;
+        margin-top: 25px;
+    }
+    &__ah5 {
+        font-size: 15px;
+        line-height: 1.867;
+        text-align: left;
+        width: 686px;
+        height: 43px;
+        margin-top: 25px;
+    }
+    &__ah6 {
+        font-size: 15px;
+        line-height: 1.867;
+        text-align: left;
+        width: 675px;
+        height: 43px;
+        margin-top: 25px;
+    }
+    &__ah7 {
+        font-size: 15px;
+        line-height: 1.867;
+        text-align: left;
+        width: 605px;
+        height: 43px;
+        margin-top: 25px;
+    }
+    &__table {
+        font-size: 15px;
+        line-height: 1.867;
+        text-align: left;
+        width: 555px;
+        margin-top: 35px;
+        padding-left: 78px;
+    }
+    &__ah8 {
+        font-size: 15px;
+        line-height: 1.867;
+        text-align: left;
+        width: 688px;
+        height: 239px;
+        margin-top: 30px;
+    }
+}
+.footer{
+    width: 100%;
+    position: relative;
+    height: auto;
+    margin-top: 40px;
+
+    &__logo {
+        padding-top: 25px;
+    }
+    &__logo-img {
+        width: 36px;
+        height: 36px;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    &__logo-text {
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 28px;
+        letter-spacing: .1em;
+        display: inline-block;
+        vertical-align: middle;
+        margin-left: 12px;
+    }
+    &__table1{
+        display: inline-block;
+        font-size: 13px;
+        margin-left: 352px;
+    }
 }
